@@ -55,14 +55,14 @@ def system_Info():
     main_Menu()
 
 def main_Menu():
-    print("""\t  ******************************************************************\n
+    print("""\t  *************************************************************\n
           1. List Directories - List the directories in the current location.\n
           2. Create a file - Create a new file with a given name and extension.\n
           3. Create a directory - Create a new directory with a given name.\n
           4. Ping a server - Ping a server (default: google.com) and optionally save the output to a textfile.\n
           5. Print system information\n
           6. Exit - Exit the application.\n
-          ******************************************************************\n""")
+          *****************************************************************\n""")
     
     userChoice = input("Enter the selection\n")
         
